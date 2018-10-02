@@ -1,0 +1,14 @@
+int variable1;
+int variable2;
+int variable3;
+int variable4;
+variable1 = 0;
+variable2 = 100;
+variable3 = 200;
+variable4 = 255;
+size(200,200);
+fill(variable4);
+rect(variable1,variable1,variable3,variable3);
+line(variable2,variable1,variable2,variable2);
+line(variable2,variable2,variable1,variable3);
+line(variable2,variable2,variable3,variable3);
